@@ -8,10 +8,11 @@ import { GetInfo } from "../components/Portal";
 export const Routing = () => {
   return (
     <>
-      <div>
-        <Link to="/adminlogin">Admin_Login</Link>
-        <Link to="/userlogin">User_Login</Link>
+      <div style={{display: "flex" , justifyContent: "space-evenly", 
+      backgroundColor: "aquamarine", height: "50px", justifyItems:"center"}}>
         <Link to="/register">Register</Link>
+        <Link to="/userlogin">User_Login</Link>
+        <Link to="/adminlogin">Admin_Login</Link>
         {/* <Link to="/dashboard">Dashboard</Link> */}
         {/* <Link to="/getinfo">GetInfo</Link> */}
       </div>

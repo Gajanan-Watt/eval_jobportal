@@ -28,45 +28,45 @@ export const Register = () => {
   };
   return (
     <div>
-      <h4>Registration Form</h4>
+      <h1>Registration Form</h1>
       <form onSubmit={handleSubmit}>
-        <input
+        <input style={{width: "40%", height: "50px"}}
           type="text"
           placeholder="Name"
           onChange={(e) => setName(e.target.value)}
         />
         <br />
-        <input
+        <input style={{width: "40%", height: "50px"}}
           type="text"
           placeholder="Email"
           onChange={(e) => setEmail(e.target.value)}
         />
         <br />
-        <input
+        <input style={{width: "40%", height: "50px"}}
           type="password"
           placeholder="Password"
           onChange={(e) => setPassword(e.target.value)}
         />
         <br />
-        <input
+        <input style={{width: "40%", height: "50px"}}
           type="text"
           placeholder="username"
           onChange={(e) => setUsername(e.target.value)}
         />
         <br />
-        <input
+        <input style={{width: "40%", height: "50px"}}
           type="number"
           placeholder="Mobile"
           onChange={(e) => setMobile(e.target.value)}
         />
         <br />
-        <input
+        <input style={{width: "40%", height: "50px"}}
           type="text"
           placeholder="Description"
           onChange={(e) => setDescription(e.target.value)}
         />
         <br />
-        <input type="submit" />
+        <input style={{width: "40%", height: "50px"}} type="submit" />
       </form>
     </div>
   );

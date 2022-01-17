@@ -28,45 +28,51 @@ export const Dashboard = () => {
   };
   return (
     <div>
-      <h4>Job Details Form</h4>
+      <h1>Job Details Form</h1>
       <form onSubmit={handleSubmit}>
-        <input
+        <input style={{width: "40%", height: "50px"}}
           type="text"
-          placeholder="Company Name"
+          placeholder="Company Name..."
           onChange={(e) => setName(e.target.value)}
         />
         <br />
-        <input
+        
+        <input style={{width: "40%", height: "50px"}}
           type="text"
-          placeholder="Job Title"
+          placeholder="Job Title..."
           onChange={(e) => setTitle(e.target.value)}
         />
         <br />
-        <input
+        
+        <input style={{width: "40%", height: "50px"}}
           type="text"
-          placeholder="Salary Range"
+          placeholder="Salary Range..."
           onChange={(e) => setRange(e.target.value)}
         />
         <br />
-        <input
+        
+        <input style={{width: "40%", height: "50px"}}
           type="text"
-          placeholder="Job Description"
+          placeholder="Job Description..."
           onChange={(e) => setDescription(e.target.value)}
         />
         <br />
-        <input
+        
+        <input style={{width: "40%", height: "50px"}}
           type="text"
-          placeholder="loaction"
+          placeholder="location..."
           onChange={(e) => setLocation(e.target.value)}
         />
         <br />
-        <input
+        
+        <input style={{width: "40%", height: "50px"}}
           type="text"
-          placeholder="Job type(remote)"
+          placeholder="Job type(remote)..."
           onChange={(e) => setType(e.target.value)}
         />
         <br />
-        <input type="submit" />
+        
+        <input style={{width: "40%", height: "50px"}} type="submit" />
       </form>
     </div>
   );

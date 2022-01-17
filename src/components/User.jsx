@@ -36,21 +36,21 @@ export const User = () => {
 
   return (
     <div>
-      <h4> User Login Form</h4>
+      <h1> User Login Form</h1>
       <form onSubmit={handleSubmit}>
-        <input
+        <input style={{width: "40%", height: "50px"}}
           type="text"
           placeholder="Enter Username"
           onChange={(e) => setUsername(e.target.value)}
         />
         <br />
-        <input
+        <input style={{width: "40%", height: "50px"}}
           type="password"
           placeholder="Enter Password"
           onChange={(e) => setPassword(e.target.value)}
         />
         <br />
-        <input type="submit" />
+        <input style={{width: "40%", height: "50px"}} type="submit" />
       </form>
       <div></div>
     </div>

@@ -9,7 +9,7 @@ export const GetInfo = () => {
 
   const get = () => {
     fetch(`http://localhost:8000/job_details`)
-      .then((d) => d.json())
+      .then((data) => data.json())
       .then((res) => {
         // console.log(res)
         setDetails(res);
@@ -21,12 +21,14 @@ export const GetInfo = () => {
       get Details
       {details.map((e) => (
         <>
-          <div>Company Name:- {e.name}</div>
-          <div>Job Title :- {e.title}</div>
-          <div>Range:- {e.range}</div>
+          <h1>Company Name:- {e.name}</h1>
+          <h3>Job Title :- {e.title}</h3>
+          <h2>Range:- {e.range}</h2>
           <div>Location:- {e.location}</div>
           <div>Job Type:- {e.type}</div>
           <div>Description:- {e.description}</div>
+          <br />
+          <br />
         </>
       ))}
     </div>

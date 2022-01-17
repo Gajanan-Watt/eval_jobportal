@@ -35,11 +35,11 @@ export const Admin = () => {
     <div>
       <h1> Admin Login Form</h1>
       <form onSubmit={handleSubmit}>
-        <input type="text" placeholder="Enter Username" onChange={(e) => setUsername(e.target.value)} />
+        <input style={{width: "40%", height: "50px"}} type="text" placeholder="Enter Username" onChange={(e) => setUsername(e.target.value)} />
         <br />
-        <input type="password" placeholder="Enter Password" onChange={(e) => setPass(e.target.value)} />
+        <input style={{width: "40%", height: "50px"}} type="password" placeholder="Enter Password" onChange={(e) => setPass(e.target.value)} />
         <br />
-        <input type="submit" />
+        <input style={{width: "40%", height: "50px"}} type="submit" />
       </form>
       <div></div>
     </div>

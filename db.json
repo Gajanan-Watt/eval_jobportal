@@ -15,6 +15,24 @@
       "type": "full stack",
       "description": "swe",
       "id": 1
+    },
+    {
+      "name": "Apple",
+      "title": "sde-ll",
+      "range": "1000000",
+      "location": "India",
+      "type": "swe",
+      "description": "lorem ipsum",
+      "id": 2
+    },
+    {
+      "name": "paytm",
+      "title": "marketing",
+      "range": "800000",
+      "location": "Noida",
+      "type": "work from home",
+      "description": "lorem ipsum",
+      "id": 3
     }
   ],
   "comments": [
